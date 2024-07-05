@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Interfaces/main/src/json/tsio-manifest.json",
+  "name": "Early_Wishbone",
+  "author": "Digitalroot",
+  "description": "Add the Wishbone to Eikthyr with a 25% chance to drop.",
+  "version_number": "%VERSION_NUMBER%",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2202",
+    "ValheimModding-Jotunn-2.20.0"
+  ],
+  "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EarlyWishbone"
+}

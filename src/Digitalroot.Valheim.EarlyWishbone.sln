@@ -28,7 +28,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ico", "ico", "{C66A8E3B-31D
 		ico\logo.png = ico\logo.png
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalroot.Valheim.EarlyWishbone", "Digitalroot.Valheim.EarlyWishbone\Digitalroot.Valheim.EarlyWishbone.csproj", "{249524A5-4299-42A3-8B06-6CCE009BB255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{B35A418E-FB5F-4560-9AE5-E072A2579495}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{249524A5-4299-42A3-8B06-6CCE009BB255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249524A5-4299-42A3-8B06-6CCE009BB255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249524A5-4299-42A3-8B06-6CCE009BB255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249524A5-4299-42A3-8B06-6CCE009BB255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35A418E-FB5F-4560-9AE5-E072A2579495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35A418E-FB5F-4560-9AE5-E072A2579495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35A418E-FB5F-4560-9AE5-E072A2579495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35A418E-FB5F-4560-9AE5-E072A2579495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -37,6 +55,7 @@ Global
 		{1960DCD1-3C51-48FF-BFF8-5FE4C3CBABB2} = {E64D67E6-C2B6-471C-990D-2E9A91427B64}
 		{28344659-BF34-4411-9C48-A3D5C9AFA98E} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
 		{C66A8E3B-31DB-4296-9DF3-78F55E2580E5} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
+		{249524A5-4299-42A3-8B06-6CCE009BB255} = {E5C5D2B9-639B-48CF-B5B0-E44FD7F24B1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46DD4389-95C4-4F57-BB16-2A9A816F46B9}

@@ -1,14 +1,17 @@
-# TBD
+# Early Wishbone
 
 ## Summary
 
-TBD
+Add the Wishbone to Eikthyr with a 25% chance to drop.
 
 ## License
 **GNU Affero General Public License v3.0**
 
 ## Details
-TBD
+The Wishbone will help you find hidden treasuse in most of the biomes. 
+Get it early from beating Eikthyr. Use the Wishbone to find hidden 
+treasuses as early as the Meadows biome. Extend the lifespan and 
+usefulness of this utility item before it is cast aside for a belt. 
 
 ### Dependencies
 - <a href="https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/"  target="_blank">BepInExPack Valheim</a>
@@ -20,35 +23,17 @@ TBD
 
 ### Configuration 
 
-| Config                          | Category          | Data Type | Desc                                      |
-| ---                             | ---               | ---       | ---                                       |
-| Campfire                        | Fireplaces        | bool      | Enable Campfire                           |
-| Bonfire                         | Fireplaces        | bool      | Enable Bonfire                            |
-| Sconce                          | Fireplaces        | bool      | Enable Sconce                             |
-| StandingWoodTorch               | Fireplaces        | bool      | Enable Standing Wood Torch                |
-| StandingIronTorch               | Fireplaces        | bool      | Enable Standing Iron Torch                |
-| StandingGreenBurningIronTorch   | Fireplaces        | bool      | Enable Standing Green Burning Iron Torch  |
-| StandingBlueBurningIronTorch    | Fireplaces        | bool      | Enable Standing Blue Burning Iron Torch   |
-| StandingBrazier                 | Fireplaces        | bool      | Enable Standing Brazier                   |
-| HangingBrazier                  | Fireplaces        | bool      | Enable Hanging Brazier                    |
-| Hearth                          | Fireplaces        | bool      | Enable Hearth                             |
-| HotTub                          | Fireplaces        | bool      | Enable Hot Tub                            |
-| JackOTurnip                     | Fireplaces        | bool      | Enable Jack O' Turnip                     |
-| StoneOven                       | Cooking Stations  | bool      | Enable Stone Oven                         |
-| Smelter                         | Smelters          | bool      | Enable Smelter                            |
-| BlastFurnace                    | Smelters          | bool      | Enable Blast Furnace                      |
-| EitrRefinery                    | Smelters          | bool      | Enable Eitr Refinery                      |
-| CustomPrefabs                   | Custom            | string    | A comma-separated list of prefab names    |
+* No need to configure.
 
 ###### Add to server to enforce configs. 
 
-### Crossplay <span class="checked">?</span>
+### Crossplay <span class="checked">✔</span>
 | Point of View               | Server w/ Mod                   | Server w/o Mod                  | Client (PC) w/ mod              | Client (PC/Console) w/o mod     |
 | ---                         | ---                             | ---                             | ---                             | ---                             |
-| Client (PC) w/ mod          | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> |
-| Client (PC/Console) w/o mod | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> |
-| Server w/ Mod               |                                 |                                 | <span class="checked">?</span> | <span class="checked">?</span> |
-| Server w/o Mod              |                                 |                                 | <span class="checked">?</span> | <span class="checked">?</span> |
+| Client (PC) w/ mod          | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> |
+| Client (PC/Console) w/o mod | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> |
+| Server w/ Mod               |                                 |                                 | <span class="checked">✔</span> | <span class="checked">✔</span> |
+| Server w/o Mod              |                                 |                                 | <span class="checked">✔</span> | <span class="checked">✔</span> |
 
 ### Issues/Questions/Bugs
 - Use the repo issues tab above.
