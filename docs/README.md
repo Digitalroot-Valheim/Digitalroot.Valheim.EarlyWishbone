@@ -25,8 +25,6 @@ usefulness of this utility item before it is cast aside for a belt.
 
 * No need to configure.
 
-###### Add to server to enforce configs. 
-
 ### Crossplay <span class="checked">✔</span>
 | Point of View               | Server w/ Mod                   | Server w/o Mod                  | Client (PC) w/ mod              | Client (PC/Console) w/o mod     |
 | ---                         | ---                             | ---                             | ---                             | ---                             |
