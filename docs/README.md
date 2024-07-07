@@ -8,9 +8,9 @@ Add the Wishbone to Eikthyr with a 25% chance to drop.
 **GNU Affero General Public License v3.0**
 
 ## Details
-The Wishbone will help you find hidden treasuse in most of the biomes. 
+The Wishbone will help you find hidden treasure in most of the biomes. 
 Get it early from beating Eikthyr. Use the Wishbone to find hidden 
-treasuses as early as the Meadows biome. Extend the lifespan and 
+treasure as early as the Meadows biome. Extend the lifespan and 
 usefulness of this utility item before it is cast aside for a belt. 
 
 ### Dependencies
