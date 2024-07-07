@@ -8,10 +8,10 @@ Add the Wishbone to Eikthyr with a 25% chance to drop.
 **GNU Affero General Public License v3.0**
 
 ## Details
-The Wishbone will help you find hidden treasure in most of the biomes. 
-Get it early from beating Eikthyr. Use the Wishbone to find hidden 
-treasure as early as the Meadows biome. Extend the lifespan and 
-usefulness of this utility item before it is cast aside for a belt. 
+Add the Wishbone to Eikthyr with a 25% chance to drop.
+
+The Wishbone helps you find hidden treasure across Valheim. Get it early from beating Eikthyr. Use the Wishbone to find hidden
+treasure as early as the Meadows. Extend the lifespan and usefulness of this utility item before it is cast aside for a belt.
 
 ### Dependencies
 - <a href="https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/"  target="_blank">BepInExPack Valheim</a>
