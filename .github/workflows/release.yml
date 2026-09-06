@@ -32,12 +32,13 @@ jobs:
     with:
       sln-file-name: Digitalroot.Valheim.EarlyWishbone
       proj-file-name: Digitalroot.Valheim.EarlyWishbone
-      #skip-unit-tests: true
+      skip-unit-tests: true
       is-nuget-package: false
       nexus-enable-upload: true
       nexus-mod-id: 2840
+      nexus-mod-file-id: 2539705
       ts-enable-upload: true
       ts-name: Early_Wishbone
       Ts-description: "Add the Wishbone to Eikthyr with a 25% chance to drop"
       ts-categories: "client-side" #https://thunderstore.io/api/experimental/community/valheim/category/
-      ts-dependencies: ValheimModding-Jotunn-2.20.0
+      ts-dependencies: ValheimModding-Jotunn-2.29.2
