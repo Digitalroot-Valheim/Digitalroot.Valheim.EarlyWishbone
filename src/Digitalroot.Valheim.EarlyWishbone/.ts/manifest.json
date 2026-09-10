@@ -5,8 +5,8 @@
   "description": "Add the Wishbone to Eikthyr with a 25% chance to drop.",
   "version_number": "%VERSION_NUMBER%",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2202",
-    "ValheimModding-Jotunn-2.20.0"
+    "denikson-BepInExPack_Valheim-5.4.2350",
+    "ValheimModding-Jotunn-2.30.0"
   ],
   "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EarlyWishbone"
 }

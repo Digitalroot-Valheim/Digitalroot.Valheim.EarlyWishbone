@@ -41,4 +41,4 @@ jobs:
       ts-name: Early_Wishbone
       Ts-description: "Add the Wishbone to Eikthyr with a 25% chance to drop"
       ts-categories: "client-side" #https://thunderstore.io/api/experimental/community/valheim/category/
-      ts-dependencies: ValheimModding-Jotunn-2.29.2
+      ts-dependencies: ValheimModding-Jotunn-2.30.0
