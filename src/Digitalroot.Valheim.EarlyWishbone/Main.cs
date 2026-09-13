@@ -20,6 +20,7 @@ namespace Digitalroot.Valheim.EarlyWishbone
   {
     private Harmony _harmony;
     [UsedImplicitly] public static ConfigEntry<int> NexusId;
+    [UsedImplicitly] public static ConfigEntry<int> WishboneDropChancePercentage;
     public static Main Instance;
 
     public Main()
@@ -41,6 +42,7 @@ namespace Digitalroot.Valheim.EarlyWishbone
       {
         Log.Trace(Instance, $"{Namespace}.{MethodBase.GetCurrentMethod()?.DeclaringType?.Name}.{MethodBase.GetCurrentMethod()?.Name}");
         NexusId = Config.Bind("General", "NexusID", 2840, new ConfigDescription("Nexus mod ID for updates", null, new ConfigurationManagerAttributes { Browsable = false, ReadOnly = true }));
+        WishboneDropChancePercentage = Config.Bind("General", "WishboneDropChancePercentage", 25, new ConfigDescription("Percent chance (0-100) for Eikthyr to drop the Wishbone.", new AcceptableValueRange<int>(0, 100), new ConfigurationManagerAttributes { Browsable = true, IsAdminOnly = true }));
         _harmony = Harmony.CreateAndPatchAll(typeof(Main).Assembly, Guid);
         CreatureManager.OnVanillaCreaturesAvailable += ModifyVanillaCreatures;
       }
@@ -59,7 +61,7 @@ namespace Digitalroot.Valheim.EarlyWishbone
       {
         m_amountMax = 1
         , m_amountMin = 0
-        , m_chance = 25f
+        , m_chance = WishboneDropChancePercentage.Value / 100f
         , m_dontScale = true
         , m_levelMultiplier = false
         , m_onePerPlayer = false

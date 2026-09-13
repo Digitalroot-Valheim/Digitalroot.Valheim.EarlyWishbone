@@ -23,7 +23,7 @@ treasure as early as the Meadows. Extend the lifespan and usefulness of this uti
 
 ### Configuration 
 
-* No need to configure.
+* **WishboneDropChancePercentage:** Controls drop chance percentage.
 
 ### Crossplay <span class="checked">✔</span>
 | Point of View               | Server w/ Mod                   | Server w/o Mod                  | Client (PC) w/ mod              | Client (PC/Console) w/o mod     |
